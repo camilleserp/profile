@@ -1,0 +1,114 @@
+body {
+	background-image: url(images/Green.jpg);
+	background-size: cover;
+	color: floralwhite;
+	font-family: Cambria;
+	font-size: 18px;
+	text-justify: justify;
+	text-align: center;
+}
+
+h1,h2,a {
+	font-family: "Montserrat", sans-serif;
+}
+
+#img-roundedges{
+	width:125px;
+	height:140px;
+	border-radius:40%;
+
+}
+
+h1 {
+	font-weight: 700;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 40px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+h2 {
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.btn-green{
+	background-color:#355441;
+	color:floralwhite;
+	padding:13px 20px;
+	border-radius:4px;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.btn-green:hover{
+	background-color:#BBDEC8;
+	color:floralwhite;
+}
+
+a {
+text-decoration: none;
+color:#355441;
+font-weight:700;
+
+}
+
+.socials{
+	font-size:60px;
+}
+
+a:hover {
+	color:#BBDEC8;
+}
+
+#container{
+	background-color:#BBDEC8;
+	width:800px;
+	margin:0 auto;
+}
+
+@media (max-width: 960px) { 
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) { 
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-green{
+
+	background-color:#6AA07E;
+	padding: 30px;
+	margin:20px;
+	border-radius:4px;
+	box-shadow:8px 10px 30px rgba(65,99,77,0.5);
+}
+
+#font-korean{
+	font-family: "Gowun Batang", serif;
+}
+
+#font-chinese{
+	font-family: "Noto Serif SC", serif;
+}
+
+#name-page p{
+margin-bottom: 35px;
+}
